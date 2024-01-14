@@ -1,13 +1,51 @@
-<html>
-  <head>
-    <title>Ana Sayfa</title>
-  </head>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ana Sayfa</title>
+  <style>
+    .container { /* etiketler için grup oluştur */
+      max-width: 1200px; /* maksimum genişlik */
+      margin: 0 auto; /* üst ve alttan 0 boşluk, sol ve sağdan otomatik (ortalar) */
+    }
 
-  <body>
+    header {
+      background-color: lightblue; /* arkaplan rengi değişti */
+      padding: 1rem; /* iç boşluk */
+    }
+
+    section {
+      background-color: lightyellow;
+      padding: 1rem;
+    }
+
+    footer {
+      background-color: lightyellow;
+      padding: 1rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="container">
+    <nav>
+      <a href="index.html">Ana Sayfa</a>
+      <a href="hakkimda.html">Hakkimda</a>
+    </nav>
+  </header>
+
+  <section class="container">
     <h1>Ana Sayfa</h1>
     <a href="hakkimda.html">Hakkimda</a>
-  
 
-    <p>Ana sayfaya hoş geldiniz</p>
-  </body>
+    <p>Ana Sayfaya Hoş Geldiniz..</p>
+  </section>
+
+  <footer class="container">
+    <p>Tasarım ve Kodlama: Nihal Küçükbaş</p>
+  </footer>
+  
+</body>
 </html>
